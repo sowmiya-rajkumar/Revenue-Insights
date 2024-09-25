@@ -12,7 +12,7 @@ Through data cleaning, data modeling in Power BI, and DAX measure development, I
 - DURN (Daily Utilized Room Nights)
 
 Transformation steps involved:
- - Step 1: Since the weekends are different(Friday and Saturday) in this insudtry we are deleting the column day_type in power query.
+ - Step 1: Since the weekends are different(Friday and Saturday) in this industry we are deleting the column day_type in power query.
  - Step 2: Loaded the data.
  - Step 3: For data modelling, star schema is created and defined relationships between fact table and dimension tables.
  - Step 4: Remove "W" from "week no" column from table dim_date by creating another column from "week no" column using DAX functions.
